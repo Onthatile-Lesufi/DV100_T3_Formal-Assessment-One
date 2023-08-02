@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(244, 255, 236);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 20px;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.hero-img {
+    height: 90vh;
+    position: relative;
+}
+
+#hero-img {
+    bottom: -300px;
+}
+
+.plantGrid {
+    margin-top: 9vh;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: auto;
+    right: auto;
+    left: 24px;
+    bottom: 24px;
+    width: auto;
+    background-color: green;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-next {
+    left: 84px;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid green;
+}
+
+
+.card {
+    height: 440px;
+    border-radius: 150px 150px 12px 12px;
+    background: #f3f3f3;
+    text-align: center;
+    border: none;
+}
+
+.card-img-top {
+    height: 320px;
+    margin: auto;
+    width: auto;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-img-top.small {
+    height: 200px;
+}
+
+.card-text {
+    color: green;
+}
+
+.greenBlock {
+    width: 100%;
+    height: 20vh;
+    background-color: green;
+}
+
+#faq {
+    margin-bottom: 5vh;
+    font-size: 350%;
+}
+
+.accordion {
+    padding-top: 35vh;
+    --bs-accordion-bg: green;
+    --bs-accordion-active-bg: #f5ffbe;
+    --bs-accordion-active-color: #2f2f2f;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+}
+
+.accordion-item {
+    background-color: rgb(244, 255, 236);
+}
+
+.accordion-button {
+    font-weight: bold;
+    color: #f3f3f3;
+}
+
+/* Wishlist */
+#wishlistText {
+    margin-top: 10vh;
+}
+
+#circleButton {
+    border-radius: 50%;
+    padding: 0px 20px;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.table {
+    margin-top: 2vh;
+}
+
+.table-img-top {
+    height: 20vh;
+    margin: auto;
+    width: auto;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.carouselGrid {
+    height: 20vh;
+    margin: auto;
+    width: auto;
+}
